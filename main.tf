@@ -3,7 +3,7 @@ provider "aws" {
   
 }
 resource "aws_instance" "abhi_terra" {
-    ami = "ami-0f918f7e67a3323f0"
+    ami = "ami-02d26659fd82cf299"
     instance_type = "t2.micro"
     tags = {
       Name = "testing"
