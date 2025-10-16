@@ -4,7 +4,7 @@ provider "aws" {
 }
 resource "aws_instance" "abhi_terra" {
     ami = "ami-02d26659fd82cf299"
-    instance_type = "t2.micro"
+    instance_type = "t3.micro"
     tags = {
       Name = "testing"
     }
