@@ -6,7 +6,7 @@ resource "aws_instance" "abhi_terra" {
     ami = "ami-02d26659fd82cf299"
     instance_type = "t3.micro"
     tags = {
-      Name = "mohan lal"
+      Name = "raja ram mohan ray"
     }
   
 }
